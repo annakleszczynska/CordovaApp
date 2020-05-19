@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Hello World</title>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.9/angular.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.18.2/angular-translate.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.18.2/angular-translate-handler-log/angular-translate-handler-log.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.18.1/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </head>
+    <body id="myapp">
+        <div style="position: relative; height:100%">
+            <div class="topnav">
+                <a href="#!" translate="Home">Home</a>
+                <a href="#!AboutUs" translate="AboutUs">About Us</a>
+            </div>
+            <div class="content" ng-view></div>
+            <div class="logo">
+                <div ng-controller="LanguageCtrl" data-tap-disabled="true">
+                    <p>
+                        <button ng-show="lang === 'de'" ng-click="changeLanguage('en')" translate="ChangeLangButton" data-tap-disabled="true"></button>
+                        <button ng-show="lang === 'en'" ng-click="changeLanguage('de')" translate="ChangeLangButton" data-tap-disabled="true"></button>
+                    </p>
+                </div>
+                    Powerd by Applanga
+                    <br />
+                    <a href="https://www.applanga.com/" target="_blank">
+                        <img src="img/applanga_blue.png" height="40px" />
+                    </a>
+                </div>
+        </div>
+    </body>
+</html>

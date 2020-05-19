@@ -1,0 +1,12 @@
+{
+    "config_ios" : {
+        "CFBundleDisplayName": "German App Name",
+        "CFBundleName": "German App Name"
+    },
+    "config_android" : {
+		"app_name": "German App Name"
+    },
+    "app": {
+        "HAVE_MAIL_TITLE": "Sie haben Post. "
+    }
+}
