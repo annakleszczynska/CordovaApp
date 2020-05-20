@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-
 jobs:
   try:
     runs-on: ubuntu-latest
@@ -13,6 +12,5 @@ jobs:
     - uses: annakleszczynska/TestAction@master
       with:
         version: 1.0.45
-
     - run: npm ci
     - run: applanga push
