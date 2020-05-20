@@ -1,0 +1,13 @@
+name: "TestAction"
+on:
+  create:
+jobs:
+  pull-sources-for-translation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: annakleszczynska/TestAction@v1.0.9
+        with:
+          cliVersion: 1.0.45
+      - run: npm ci
+      - run: applanga pull
