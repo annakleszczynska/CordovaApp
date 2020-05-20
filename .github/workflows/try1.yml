@@ -11,7 +11,7 @@ jobs:
       - uses: winify-ag/setup-phraseapp@v1.0.1
         with:
           version: 1.16.0
-      - uses: annakleszczynska/TestAction@v1.0.8
+      - uses: annakleszczynska/TestAction@v.1.0.8
         with:
           cliVersion: 1.0.45
       - run: npm ci
