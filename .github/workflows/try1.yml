@@ -1,0 +1,17 @@
+name: "TestAction"
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - run: npm ci
+    - uses: ./
+      with:
+        version: 1.0.45
+    - run: which TestAction
