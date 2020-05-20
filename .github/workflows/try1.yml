@@ -7,8 +7,6 @@ jobs:
   trying-my-action:
     runs-on: ubuntu-latest
     steps:
-      - name: Debug Action
-        uses: hmarr/debug-action@v1.0.0
       - uses: actions/checkout@v1
       - uses: winify-ag/setup-phraseapp@v1.0.1
         with:
