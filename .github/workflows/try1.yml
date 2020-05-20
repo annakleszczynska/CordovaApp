@@ -8,9 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: winify-ag/setup-phraseapp@v1.0.1
-        with:
-          version: 1.16.0
       - uses: annakleszczynska/TestAction@v1.0.9
         with:
           cliVersion: 1.0.45
