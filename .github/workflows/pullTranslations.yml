@@ -13,6 +13,7 @@ jobs:
           cliVersion: 1.0.45
       - run: npm ci
       - run: applanga pull
+      - run: git config annakleszczynska
       - run: git add .
       - run: git commit -m "test the idea"
       - name: Create Pull Request
