@@ -1,17 +1,18 @@
 name: "TestAction"
 on:
+  pull_request:
   push:
     branches:
       - master
 
 jobs:
-  test:
+  try:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-
-    - run: npm ci
-    - uses: ./
+    - uses: annakleszczynska/TestAction
       with:
         version: 1.0.45
-    - run: which TestAction
+
+    - run: npm ci
+    - run: applanga push
