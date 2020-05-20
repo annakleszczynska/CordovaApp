@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: annakleszczynska/TestAction@master
+    - uses: winify-ag/setup-phraseapp@v1
       with:
-        cliVersion: 1.0.45
+        version: 1.16.0
     - run: npm ci
 
