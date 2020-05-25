@@ -15,4 +15,5 @@ jobs:
           cliVersion: 1.0.45
       - run: applanga push
         working-directory: checkout
-
+      - run: applanga push
+        working-directory: checkout/test

@@ -1,0 +1,22 @@
+{
+  "app": {
+    "access_token": "5ecbbf7082329718e82df958!dea633a39b85d8398810217788fd9b84", 
+    "base_language": "en", 
+    "pull": {
+      "target": [
+        {
+            "tag":"OtherJob",
+            "file_format": "ios_strings", 
+            "path": "./<language>.strings"
+        }]
+    }, 
+    "push": {
+      "source": [
+        {
+            "tag":"OtherJob",
+            "file_format": "ios_strings ", 
+            "path": "./<language>.strings"
+        }]
+    }
+  }
+}
