@@ -16,7 +16,7 @@ jobs:
           path: 'checkout'
       - uses: annakleszczynska/TestAction@v1.0.9
         with:
-          cliVersion: 1.0.45
+          version: 1.0.45
       - run: applanga pull
         working-directory: checkout
       - name: Create Pull Request
