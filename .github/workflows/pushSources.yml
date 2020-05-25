@@ -1,9 +1,9 @@
-name: "TestAction"
-on:
-  push:
-    branches:
-      - master
-jobs:
+# name: "TestAction"
+# on:
+#  push:
+#    branches:
+#      - master
+# jobs:
   pull-sources-for-translation:
     runs-on: ubuntu-latest
     steps:
