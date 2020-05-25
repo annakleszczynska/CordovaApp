@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: annakleszczynska/TestAction@v1.0.10
+      - uses: annakleszczynska/TestAction@v1.0.11
         with:
           cliVersion: 1.0.45
       - run: npm ci
