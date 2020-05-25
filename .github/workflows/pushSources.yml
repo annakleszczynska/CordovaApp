@@ -8,8 +8,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+        with: 
+         path: 'checkout'
       - uses: annakleszczynska/TestAction@v1.0.21
         with:
           version: 1.0.45
       - run: applanga push
+        working-directory: checkout
+      - run: applanga push
+        working-directory: checkout/test
 
