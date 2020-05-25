@@ -10,10 +10,12 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
+          path: 'checkout'
       - uses: annakleszczynska/TestAction@v1.0.9
         with:
           cliVersion: 1.0.45
       - run: applanga pull
+        working-directory: checkout
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
         with:
@@ -21,3 +23,4 @@ jobs:
           commit-message: Updated translations
           title: Updated translations 
           body: Pulled in new translations from Applanga portal
+          path: 'checkout'
