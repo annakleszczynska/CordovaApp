@@ -12,7 +12,7 @@ jobs:
          path: 'checkout'
       - uses: annakleszczynska/TestAction@v1.0.21
         with:
-          cliVersion: 1.0.45
+          version: 1.0.45
       - run: applanga push
         working-directory: checkout
       - run: applanga push
