@@ -7,7 +7,7 @@ jobs:
   pull-sources-for-translation:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - uses: annakleszczynska/TestAction@v1.0.9
         with:
           cliVersion: 1.0.45
@@ -15,3 +15,8 @@ jobs:
       - run: applanga pull
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
+        with:
+          branch: testPull
+          commit-message: Updated translations
+          title: Updated translations 
+          body: Pulled in new translations from Applanga portal
