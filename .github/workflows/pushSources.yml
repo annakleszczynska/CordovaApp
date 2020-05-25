@@ -7,9 +7,12 @@ jobs:
   pull-sources-for-translation:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: annakleszczynska/TestAction@v1.0.9
+      - uses: actions/checkout@v2
+        with: 
+         path: 'checkout'
+      - uses: annakleszczynska/TestAction@v1.0.21
         with:
           cliVersion: 1.0.45
-      - run: npm ci
       - run: applanga push
+        working-directory: checkout
+
