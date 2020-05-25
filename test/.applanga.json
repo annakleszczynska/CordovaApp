@@ -14,7 +14,7 @@
       "source": [
         {
             "tag":"OtherJob",
-            "file_format": "ios_strings ", 
+            "file_format": "ios_strings", 
             "path": "./<language>.strings"
         }]
     }
