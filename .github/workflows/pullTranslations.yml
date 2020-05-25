@@ -1,20 +1,29 @@
-name: "TestAction"
+name: "PullTranslations"
 on:
-  push:
+  #schedule:
+    # * is a special character in YAML so you have to quote this string
+   # - cron:  '*/10 * * * *'
+   push:
     branches:
-      - testPull
+       - master
 jobs:
   pull-sources-for-translation:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+          path: 'checkout'
       - uses: annakleszczynska/TestAction@v1.0.9
         with:
           cliVersion: 1.0.45
-      - run: npm ci
       - run: applanga pull
-      - run: git config annakleszczynska
-      - run: git add .
-      - run: git commit -m "test the idea"
+        working-directory: checkout
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
+        with:
+          branch: newTranslations
+          commit-message: Updated translations
+          title: Updated translations 
+          body: Pulled in new translations from Applanga portal
+          path: 'checkout'
