@@ -13,7 +13,6 @@ jobs:
       - uses: annakleszczynska/TestAction@v1.0.9
         with:
           cliVersion: 1.0.45
-      - run: npm ci
       - run: applanga pull
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
