@@ -8,7 +8,7 @@
     },
     "app": {
         "HAVE_MAIL_TITLE": "You have mail."
-    }
+    },
     "newString": {
         "newstring": "The new string"
     }
