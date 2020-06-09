@@ -1,10 +1,10 @@
-name: "TestAction"
+name: "Push Source Files to Applang"
 on:
   push:
     branches:
       - master
 jobs:
-  pull-sources-for-translation:
+  push-sources-for-translation:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -12,8 +12,8 @@ jobs:
          path: 'checkout'
       - uses: applanga/setup-applanga-cli@master
         with:
-          version: 1.0.45
+          version: 1.0.47
       - run: applanga push
         working-directory: checkout
-      - run: applanga push
+      - run: applanga push --force
         working-directory: checkout/test
