@@ -1,11 +1,11 @@
-name: "PullTranslations"
+name: "Pull Target Files from Applanga"
 on:
-  #schedule:
-    # * is a special character in YAML so you have to quote this string
-   # - cron:  '*/10 * * * *'
-   push:
-    branches:
-       - master
+  schedule:
+   #  * is a special character in YAML so you have to quote this string
+    - cron:  '*/10 * * * *'
+   #push:
+    #branches:
+    #   - master
 jobs:
   pull-sources-for-translation:
     runs-on: ubuntu-latest
@@ -14,9 +14,9 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           path: 'checkout'
-      - uses: annakleszczynska/TestAction@v1.0.9
+      - uses: applanga/setup-applanga-cli@v1.0.0
         with:
-          version: 1.0.45
+          version: 1.0.47
       - run: applanga pull
         working-directory: checkout
       - name: Create Pull Request
