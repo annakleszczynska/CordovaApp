@@ -14,6 +14,8 @@ jobs:
         with:
           version: 1.0.48
       - run: applanga push
+        env:
+          APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
         working-directory: checkout
       - run: applanga push --force
         env:
