@@ -12,7 +12,7 @@ jobs:
          path: 'checkout'
       - uses: applanga/setup-applanga-cli@master
         with:
-          version: 1.0.47
+          version: 1.0.48
       - run: applanga push
         working-directory: checkout
       - run: applanga push --force
