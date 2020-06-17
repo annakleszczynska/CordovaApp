@@ -1,15 +1,1 @@
-{
-    "config_ios" : {
-        "CFBundleDisplayName": "English App Name",
-        "CFBundleName": "English App Name"
-    },
-    "config_android" : {
-		"app_name": "English App Name"
-    },
-    "app": {
-        "HAVE_MAIL_TITLE": "You have mail."
-    },
-    "newString": {
-        "newstring": "The new string"
-    }
-}
+{}
