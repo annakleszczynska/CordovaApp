@@ -18,6 +18,8 @@ jobs:
         with:
           version: 1.0.47
       - run: applanga pull
+        env:
+          APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
         working-directory: checkout
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
