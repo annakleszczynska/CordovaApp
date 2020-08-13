@@ -57,7 +57,7 @@ Start by uploading the translatable text content. In the Menu Bar under Plugins 
 
 After you made you chose the upload option form the Plugin menu, a pop-up will appear to ask you to select a source language (the current language of the file). The upload might take a moment. There will be a pop-up to confirm when the upload is done.  
 
-The Applanga Sketch plugin can also upload the layers in the sketch file itself as a visual reference for the translation process to Applanga. For this feature, use the Upload Screenshots option from the plugin menu.\ \ 
+The Applanga Sketch plugin can also upload the layers in the sketch file itself as a visual reference for the translation process to Applanga. For this feature, use the Upload Screenshots option from the plugin menu.  
 
 **How to generate translated Sketch files?**
 
@@ -67,14 +67,14 @@ From the plugin menu, choose Download from Applanga. You will need to decide to 
 
 **Important!** Before download resolved any *Missing Fonts* in your file. Translations won’t be displayed where fonts are missing. The string will remain unchanged (e.g. English)
 
-In the pop-up that appears after that, select the language you want to download. When saving the file, using the .sketch ending in the file name is mandatory. \ \ 
+In the pop-up that appears after that, select the language you want to download. When saving the file, using the .sketch ending in the file name is mandatory.  
 
 **Uploading Translated Screenshots**
 
 If you want to upload screenshots of your translated Sketch file back to Applanga, for example, if you want somebody to review the translation in-context, please follow these steps:
 
 1. Go to Download from Applanga, chose either Target or Draft mode and select the language you want to download from the pop-up
-2. After the download is finished, go to Upload Screenshots and in the pop-up select the language you want to upload translated screenshots to \ \ 
+2. After the download is finished, go to Upload Screenshots and in the pop-up select the language you want to upload translated screenshots to   
 
 **Uploading Translated Screenshots for multiple languages**
 
