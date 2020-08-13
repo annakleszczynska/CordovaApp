@@ -67,14 +67,14 @@ From the plugin menu, choose Download from Applanga. You will need to decide to 
 
 **Important!** Before download resolved any *Missing Fonts* in your file. Translations won’t be displayed where fonts are missing. The string will remain unchanged (e.g. English)
 
-In the pop-up that appears after that, select the language you want to download. When saving the file, using the .sketch ending in the file name is mandatory.  
+In the pop-up that appears after that, select the language you want to download. When saving the file, using the .sketch ending in the file name is mandatory. <br>
 
 **Uploading Translated Screenshots**
 
 If you want to upload screenshots of your translated Sketch file back to Applanga, for example, if you want somebody to review the translation in-context, please follow these steps:
 
 1. Go to Download from Applanga, chose either Target or Draft mode and select the language you want to download from the pop-up
-2. After the download is finished, go to Upload Screenshots and in the pop-up select the language you want to upload translated screenshots to   
+2. After the download is finished, go to Upload Screenshots and in the pop-up select the language you want to upload translated screenshots to  <br>
 
 **Uploading Translated Screenshots for multiple languages**
 
@@ -82,4 +82,4 @@ With this option, you can start an automated process that will, step by step, do
 
 In order to upload translated screenshots for multiple languages, in the plugin, chose the Batch Screenshot Upload option. In the subsection of the Batch option, you can select for which layer (all or only the currently selected) and which set of strings (Draft or Target) will be in scope for the batch process. 
 
-After you confirmed the options you will be presented with a pop-up to enter which languages should be included. The languages need to exist in your project on the Applanga dashboard. By default, all languages in your project will be included.  
+After you confirmed the options you will be presented with a pop-up to enter which languages should be included. The languages need to exist in your project on the Applanga dashboard. By default, all languages in your project will be included. <br>
