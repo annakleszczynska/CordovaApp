@@ -1,1 +1,10 @@
-{}
+{
+  "Title": "Apache Cordova - Applanga sample app",
+  "ConnectingToDevice": "Connecting to Device",
+  "DeviceIsReady": "Device is Ready",
+  "AboutUsButton": "About us",
+  "ChangeLangButton": "Deutsch",
+  "AboutUs": "About Us",
+  "Home": "Home",
+  "AboutText": "Everything that you need to make mobile app & game localization lean and professional"
+}

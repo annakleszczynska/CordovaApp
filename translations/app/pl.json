@@ -1,1 +1,12 @@
-{}
+{
+  "config_ios": {
+    "CFBundleDisplayName": "Polska nazwa aplikacji",
+    "CFBundleName": "Polska nazwa aplikacji"
+  },
+  "config_android": {
+    "app_name": "Polska nazwa aplikacji"
+  },
+  "app": {
+    "HAVE_MAIL_TITLE": "Masz pocztę."
+  }
+}
