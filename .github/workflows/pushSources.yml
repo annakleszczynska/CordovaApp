@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
         with: 
          path: 'checkout'
-      - uses: applanga/setup-applanga-cli@master
+      - uses: applanga/setup-applanga-cli@v1.0.1
         with:
           version: 1.0.48
       - run: applanga push
