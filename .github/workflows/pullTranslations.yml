@@ -14,7 +14,7 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           path: 'checkout'
-      - uses: annakleszczynska/TestAction@1.0.22
+      - uses: annakleszczynska/TestAction@v1.0.22
         with:
           version: 1.0.48
       - run: applanga pull
