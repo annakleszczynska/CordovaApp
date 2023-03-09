@@ -1,32 +1,26 @@
 {
   "app": {
-    "base_language": "en", 
-    "pull": {
-      "target": [
-        {
-            "tag":"SystemStrings",
-            "file_format": "nested_json", 
-            "path": "./translations/app/<language>.json"
-        },
-        {
-            "tag":"AppStrings",
-            "file_format": "node_2_json", 
-            "path": "./www/i18n/locale-<language>.json"  
-        }    
-	  ]
-    }, 
+    "base_language": "en",
     "push": {
       "source": [
         {
-            "tag":"SystemStrings",
-            "file_format": "nested_json", 
-            "path": "./translations/app/<language>.json"
-        },
+          "language": "en",
+          "file_format": "i18next_json",
+          "path": "./www/i18n/locale-en.json",
+          "tag": "app:translations.json"
+        }
+      ]
+    },
+    "pull": {
+      "target": [
         {
-            "tag":"AppStrings",
-            "file_format": "node_2_json", 
-            "path": "./www/i18n/locale-<language>.json"  
-		}	
+          "exclude_languages": [
+            "en"
+          ],
+          "file_format": "i18next_json",
+          "path": "./www/i18n/<language>.json",
+          "tag": "app:translations.json"
+        }
       ]
     }
   }
