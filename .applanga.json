@@ -6,8 +6,14 @@
         {
           "language": "en",
           "file_format": "nested_json",
-          "path": "./www/i18n/locale-en.json",
+          "path": "./translations/app/en.json",
           "tag": "app:language.json"
+        },
+        {
+          "language": "en",
+          "file_format": "nested_json",
+          "path": "./www/i18n/locale-en.json",
+          "tag": "app:language:6767.json"
         }
       ]
     },
@@ -18,8 +24,16 @@
             "en"
           ],
           "file_format": "nested_json",
-          "path": "./www/i18n/<language>.json",
+          "path": "./translations/app/<language>.json",
           "tag": "app:language.json"
+        },
+        {
+          "exclude_languages": [
+            "en"
+          ],
+          "file_format": "nested_json",
+          "path": "./www/i18n/<language>.json",
+          "tag": "app:language:6767.json"
         }
       ]
     }
