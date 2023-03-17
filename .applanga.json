@@ -13,7 +13,7 @@
           "language": "en",
           "file_format": "nested_json",
           "path": "./www/i18n/locale-en.json",
-          "tag": "app:language:9178.json"
+          "tag": "app:language.json"
         }
       ]
     },
@@ -33,7 +33,7 @@
           ],
           "file_format": "nested_json",
           "path": "./www/i18n/<language>.json",
-          "tag": "app:language:9178.json"
+          "tag": "app:language.json"
         }
       ]
     }
