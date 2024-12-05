@@ -6,8 +6,26 @@
         {
           "language": "en",
           "file_format": "nested_json",
+          "path": "./translations/app/de.json",
+          "tag": "app:language:3476.json"
+        },
+        {
+          "language": "en",
+          "file_format": "nested_json",
           "path": "./translations/app/en.json",
           "tag": "app:language.json"
+        },
+        {
+          "language": "en",
+          "file_format": "nested_json",
+          "path": "./translations/app/es.json",
+          "tag": "app:language:3720.json"
+        },
+        {
+          "language": "en",
+          "file_format": "nested_json",
+          "path": "./translations/app/pl.json",
+          "tag": "app:language:4024.json"
         }
       ]
     },
@@ -19,7 +37,31 @@
           ],
           "file_format": "nested_json",
           "path": "./translations/app/<language>.json",
+          "tag": "app:language:3476.json"
+        },
+        {
+          "exclude_languages": [
+            "en"
+          ],
+          "file_format": "nested_json",
+          "path": "./translations/app/<language>.json",
           "tag": "app:language.json"
+        },
+        {
+          "exclude_languages": [
+            "en"
+          ],
+          "file_format": "nested_json",
+          "path": "./translations/app/<language>.json",
+          "tag": "app:language:3720.json"
+        },
+        {
+          "exclude_languages": [
+            "en"
+          ],
+          "file_format": "nested_json",
+          "path": "./translations/app/<language>.json",
+          "tag": "app:language:4024.json"
         }
       ]
     }
