@@ -7,6 +7,8 @@ on:
       - translations/app/de.json
       - translations/app/en.json
       - translations/app/es.json
+      - package-lock.json
+      - package.json
       - translations/app/pl.json
   workflow_dispatch:
     inputs:
