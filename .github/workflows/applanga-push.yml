@@ -4,7 +4,10 @@ on:
     branches:
       - master
     paths:
+      - translations/app/de.json
       - translations/app/en.json
+      - translations/app/es.json
+      - translations/app/pl.json
   workflow_dispatch:
     inputs:
       push_targets:
