@@ -12,9 +12,9 @@
         },
         {
           "language": "en",
-          "file_format": "csv",
+          "file_format": "react_nested_json",
           "path": "./www/i18n/locale-en.json",
-          "tag": "app:csv.json"
+          "tag": "app:react_nested_json.json"
         }
       ]
     },
@@ -34,9 +34,9 @@
            "exclude_languages": [
             "en"
           ],
-          "file_format": "csv",
+          "file_format": "react_nested_json",
           "path": "./www/i18n/locale-<language>.json",
-          "tag": "app:csv.json"
+          "tag": "app:react_nested_json.json"
         }
       ]
     }
