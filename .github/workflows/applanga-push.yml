@@ -4,12 +4,8 @@ on:
     branches:
       - master
     paths:
-      - translations/app/de.json
       - translations/app/en.json
-      - translations/app/es.json
-      - package-lock.json
-      - package.json
-      - translations/app/pl.json
+      - www/i18n/locale-en.json
   workflow_dispatch:
     inputs:
       push_targets:
