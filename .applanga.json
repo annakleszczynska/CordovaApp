@@ -12,12 +12,6 @@
         },
         {
           "language": "en",
-          "file_format": "i18next_json",
-          "path": "./www/i18n/locale-en.json",
-          "tag": "app:translations.json"
-        },
-        {
-          "language": "en",
           "file_format": "csv",
           "path": "./www/i18n/locale-en.json",
           "tag": "app:csv.json"
@@ -35,14 +29,6 @@
           "file_format": "nested_json",
           "path": "./translations/app/<language>.json",
           "tag": "app:language.json"
-        },
-        {
-          "exclude_languages": [
-            "en"
-          ],
-          "file_format": "i18next_json",
-          "path": "./www/i18n/<language>.json",
-          "tag": "app:translations.json"
         },
         {
            "exclude_languages": [
