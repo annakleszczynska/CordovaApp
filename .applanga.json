@@ -18,9 +18,9 @@
         },
         {
           "language": "en",
-          "file_format": "ini",
-          "path": "./www/i18n/locale-en.ini",
-          "tag": "app:ini.json"
+          "file_format": "csv",
+          "path": "./www/i18n/locale-en.json",
+          "tag": "app:csv.json"
         }
       ]
     },
@@ -48,9 +48,9 @@
            "exclude_languages": [
             "en"
           ],
-          "file_format": "ini",
-          "path": "./www/i18n/locale-<language>.ini",
-          "tag": "app:ini.json"
+          "file_format": "csv",
+          "path": "./www/i18n/locale-<language>.json",
+          "tag": "app:csv.json"
         }
       ]
     }
