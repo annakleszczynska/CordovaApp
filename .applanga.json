@@ -6,38 +6,9 @@
         {
           "language": "en",
           "file_format": "nested_json",
-          "path": "./translations/app/de.json",
-          "tag": "app:language:3476.json"
-        },
-        {
-          "language": "en",
-          "file_format": "nested_json",
           "path": "./translations/app/en.json",
-          "tag": "app:language.json"
-        },
-        {
-          "language": "en",
-          "file_format": "nested_json",
-          "path": "./translations/app/es.json",
-          "tag": "app:language:3720.json"
-        },
-        {
-          "language": "en",
-          "file_format": "nested_json",
-          "path": "./package-lock.json",
-          "tag": "app:language:8463.json"
-        },
-        {
-          "language": "en",
-          "file_format": "nested_json",
-          "path": "./package.json",
-          "tag": "app:language:9002.json"
-        },
-        {
-          "language": "en",
-          "file_format": "nested_json",
-          "path": "./translations/app/pl.json",
-          "tag": "app:language:4024.json"
+          "tag": "app:language.json",
+          "remove_cr_char": true
         }
       ]
     },
@@ -49,47 +20,9 @@
           ],
           "file_format": "nested_json",
           "path": "./translations/app/<language>.json",
-          "tag": "app:language:3476.json"
-        },
-        {
-          "exclude_languages": [
-            "en"
-          ],
-          "file_format": "nested_json",
-          "path": "./translations/app/<language>.json",
-          "tag": "app:language.json"
-        },
-        {
-          "exclude_languages": [
-            "en"
-          ],
-          "file_format": "nested_json",
-          "path": "./translations/app/<language>.json",
-          "tag": "app:language:3720.json"
-        },
-        {
-          "exclude_languages": [
-            "en"
-          ],
-          "file_format": "nested_json",
-          "path": "./<language>.json",
-          "tag": "app:language:8463.json"
-        },
-        {
-          "exclude_languages": [
-            "en"
-          ],
-          "file_format": "nested_json",
-          "path": "./<language>.json",
-          "tag": "app:language:9002.json"
-        },
-        {
-          "exclude_languages": [
-            "en"
-          ],
-          "file_format": "nested_json",
-          "path": "./translations/app/<language>.json",
-          "tag": "app:language:4024.json"
+          "tag": "app:language.json",
+          "remove_cr_char": true,
+          "sort_by_key": true
         }
       ]
     }
