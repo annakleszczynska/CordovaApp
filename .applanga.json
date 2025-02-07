@@ -36,7 +36,7 @@
           "sort_by_key": true,
           "file_format": "nested_json",
           "path": "./translations/app/<language>.json",
-          "tag": "app:language.json"
+          "tag": ["tag me", "app:language.json"]
         },
         {
            "exclude_languages": [
