@@ -14,37 +14,21 @@
           "language": "en",
           "file_format": "react_nested_json",
           "path": "./www/i18n/locale-en.json",
-          "tag": ["app:react_nested_json.json", "tag me"]
+          "tag": "app:react_nested_json.json"
         }
       ]
     },
     "pull": {
       "target": [
         {
-          "remove_cr_char": false,
-          "language": "pl",
-          "sort_by_key": true,
-          "file_format": "nested_json",
-          "path": "./translations/app/PL.json",
-          "tag": "app:language.json"
-        },
-        {
           "remove_cr_char": true,
           "exclude_languages": [
-            "en", "pl"
+            "en"
           ],
           "sort_by_key": true,
           "file_format": "nested_json",
           "path": "./translations/app/<language>.json",
-          "tag": ["tag me", "app:language.json"]
-        },
-        {
-           "exclude_languages": [
-            "en"
-          ],
-          "file_format": "react_nested_json",
-          "path": "./www/i18n/locale-<language>.json",
-          "tag": "app:react_nested_json.json"
+          "tag": "app:language.json"
         },
         {
            "exclude_languages": [
