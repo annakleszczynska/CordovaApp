@@ -4,6 +4,17 @@
     "push": {
       "source": [
         {
+          "path": "./www/i18n/en.csv",
+          "file_format": "csv",
+          "tag": "app:language.csv",
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },
+          "excludeHeaderRow": true,
+          "language": "en"
+        },
+        {
           "remove_cr_char": true,
           "language": "en",
           "file_format": "nested_json",
@@ -21,6 +32,16 @@
     "pull": {
       "target": [
         {
+          "path": "./www/i18n/<language>.csv",
+          "file_format": "csv",
+          "tag": "app:language.csv",
+          "excludeHeaderRow": true,
+          "excludeBaseLang": true,
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
           "remove_cr_char": true,
           "exclude_languages": [
             "en"
@@ -31,7 +52,7 @@
           "tag": "app:language.json"
         },
         {
-           "exclude_languages": [
+          "exclude_languages": [
             "en"
           ],
           "file_format": "react_nested_json",
