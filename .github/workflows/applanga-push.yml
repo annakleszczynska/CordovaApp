@@ -4,9 +4,7 @@ on:
     branches:
       - master
     paths:
-      - www/i18n/en.csv
       - translations/app/en.json
-      - www/i18n/locale-en.json
   workflow_dispatch:
     inputs:
       push_targets:
