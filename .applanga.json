@@ -4,60 +4,22 @@
     "push": {
       "source": [
         {
-          "path": "./www/i18n/en.csv",
-          "file_format": "csv",
-          "tag": "app:language.csv",
-          "columnDescription": {
-            "KEY": 0,
-            "en": 1
-          },
-          "excludeHeaderRow": true,
-          "language": "en"
-        },
-        {
-          "remove_cr_char": true,
-          "language": "en",
-          "file_format": "nested_json",
           "path": "./translations/app/en.json",
-          "tag": "app:language.json"
-        },
-        {
-          "language": "en",
-          "file_format": "react_nested_json",
-          "path": "./www/i18n/locale-en.json",
-          "tag": "app:react_nested_json.json"
+          "file_format": "nested_json",
+          "tag": "app:language.json",
+          "language": "en"
         }
       ]
     },
     "pull": {
       "target": [
         {
-          "path": "./www/i18n/<language>.csv",
-          "file_format": "csv",
-          "tag": "app:language.csv",
-          "excludeHeaderRow": true,
-          "excludeBaseLang": true,
+          "path": "./translations/app/<language>.json",
+          "file_format": "nested_json",
+          "tag": "app:language.json",
           "exclude_languages": [
             "en"
           ]
-        },
-        {
-          "remove_cr_char": true,
-          "exclude_languages": [
-            "en"
-          ],
-          "sort_by_key": true,
-          "file_format": "nested_json",
-          "path": "./translations/app/<language>.json",
-          "tag": "app:language.json"
-        },
-        {
-          "exclude_languages": [
-            "en"
-          ],
-          "file_format": "react_nested_json",
-          "path": "./www/i18n/locale-<language>.json",
-          "tag": "app:react_nested_json.json"
         }
       ]
     }
