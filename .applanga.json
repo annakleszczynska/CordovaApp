@@ -363,7 +363,8 @@
           "exclude_languages": [
             "en"
           ],
-          "key_prefix": "po_"
+          "key_prefix": "po_",
+          "ignore_duplicates": true
         },
         {
           "path": "./www/<language>.pot",
@@ -372,7 +373,8 @@
           "exclude_languages": [
             "en"
           ],
-          "key_prefix": "pot_"
+          "key_prefix": "pot_",
+          "ignore_duplicates": true
         },
         {
           "path": "./www/<language>.json",
