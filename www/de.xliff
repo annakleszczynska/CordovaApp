@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" target-language="de" date="2025-07-31T10:40:26Z" product-name="GitHub test" tool="Applanga">
+    <header>
+      <tool tool-name="Applanga"/>
+    </header>
+    <body>
+      <trans-unit id="empty_string_key" x-length-option="equals-source">
+        <source/>
+        <target/>
+        <context-group purpose="information">
+          <context context-type="x-applanga-source-context-url">https://dashboard.applanga.com/!/#/projects/6409e588dec2914bad82d619/languages/6409e588dec2914bad82d61b/entry/688b477da3730e5003d33859/context</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="with_description_key" x-length-option="equals-source">
+        <source>This key has a description in some file-formats.</source>
+        <target>Dieser Schlüssel enthält eine Beschreibung in einigen Dateiformaten.</target>
+        <context-group purpose="information">
+          <context context-type="x-applanga-source-context-url">https://dashboard.applanga.com/!/#/projects/6409e588dec2914bad82d619/languages/6409e588dec2914bad82d61b/entry/688b477da3730e5003d3385a/context</context>
+        </context-group>
+        <note from="description">Here is the description of the key</note>
+      </trans-unit>
+      <trans-unit id="with_line_break_key" x-length-option="equals-source">
+        <source>This key has a line break
+in it.</source>
+        <target>Dieser Schlüssel hat einen Zeilenumbruch
+darin.</target>
+        <context-group purpose="information">
+          <context context-type="x-applanga-source-context-url">https://dashboard.applanga.com/!/#/projects/6409e588dec2914bad82d619/languages/6409e588dec2914bad82d61b/entry/688b477da3730e5003d3385b/context</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nested_key.level_one_a.level_two" x-length-option="equals-source">
+        <source/>
+        <target/>
+        <context-group purpose="information">
+          <context context-type="x-applanga-source-context-url">https://dashboard.applanga.com/!/#/projects/6409e588dec2914bad82d619/languages/6409e588dec2914bad82d61b/entry/688b477da3730e5003d3385c/context</context>
+        </context-group>
+        <note from="description">A deeply nested key.</note>
+      </trans-unit>
+      <trans-unit id="nested_key.level_one_b" x-length-option="equals-source">
+        <source>A nested key.</source>
+        <target>Ein verschachtelter Schlüssel.</target>
+        <context-group purpose="information">
+          <context context-type="x-applanga-source-context-url">https://dashboard.applanga.com/!/#/projects/6409e588dec2914bad82d619/languages/6409e588dec2914bad82d61b/entry/688b477da3730e5003d3385d/context</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="plural_key[one]" x-length-option="equals-source">
+        <source>Plural key one</source>
+        <target>Plural Schlüssel eins</target>
+        <context-group purpose="information">
+          <context context-type="x-applanga-source-context-url">https://dashboard.applanga.com/!/#/projects/6409e588dec2914bad82d619/languages/6409e588dec2914bad82d61b/entry/688b477da3730e5003d3385e/context</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="plural_key[other]" x-length-option="equals-source">
+        <source>Plural key other</source>
+        <target>Mehrzweckschlüssel Sonstiges</target>
+        <context-group purpose="information">
+          <context context-type="x-applanga-source-context-url">https://dashboard.applanga.com/!/#/projects/6409e588dec2914bad82d619/languages/6409e588dec2914bad82d61b/entry/688b477da3730e5003d3385f/context</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="plural_key[zero]" x-length-option="equals-source">
+        <source>Plural key zero</source>
+        <target>Mehrschlüssel Null</target>
+        <context-group purpose="information">
+          <context context-type="x-applanga-source-context-url">https://dashboard.applanga.com/!/#/projects/6409e588dec2914bad82d619/languages/6409e588dec2914bad82d61b/entry/688b477da3730e5003d33860/context</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="array_key[0]" x-length-option="equals-source">
+        <source>first entry</source>
+        <target>erster Eintrag</target>
+        <context-group purpose="information">
+          <context context-type="x-applanga-source-context-url">https://dashboard.applanga.com/!/#/projects/6409e588dec2914bad82d619/languages/6409e588dec2914bad82d61b/entry/688b477da3730e5003d33861/context</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="array_key[1]" x-length-option="equals-source">
+        <source>second entry</source>
+        <target>zweiter Eintrag</target>
+        <context-group purpose="information">
+          <context context-type="x-applanga-source-context-url">https://dashboard.applanga.com/!/#/projects/6409e588dec2914bad82d619/languages/6409e588dec2914bad82d61b/entry/688b477da3730e5003d33862/context</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="array_key[2]" x-length-option="equals-source">
+        <source>third entry</source>
+        <target>dritter Eintrag</target>
+        <context-group purpose="information">
+          <context context-type="x-applanga-source-context-url">https://dashboard.applanga.com/!/#/projects/6409e588dec2914bad82d619/languages/6409e588dec2914bad82d61b/entry/688b477da3730e5003d33863/context</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="simple_key" x-length-option="equals-source">
+        <source>Most basic translation.</source>
+        <target>Grundlegende Übersetzung.</target>
+        <context-group purpose="information">
+          <context context-type="x-applanga-source-context-url">https://dashboard.applanga.com/!/#/projects/6409e588dec2914bad82d619/languages/6409e588dec2914bad82d61b/entry/688b477da3730e5003d33864/context</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
