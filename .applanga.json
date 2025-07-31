@@ -19,8 +19,7 @@
           "language": "en",
           "file_format": "nested_json",
           "path": "./translations/app/en.json",
-          "tag": ["app:language.json","test"],
-          "tag_category":"Web"
+          "tag": ["app:language.json","test"]
         },
         {
           "language": "en",
