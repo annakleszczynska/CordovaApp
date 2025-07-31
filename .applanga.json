@@ -357,26 +357,6 @@
           "key_prefix": "arb_"
         },
         {
-          "path": "./www/<language>.po",
-          "file_format": "gettext_po",
-          "tag": "app:language.po",
-          "exclude_languages": [
-            "en"
-          ],
-          "key_prefix": "po_",
-          "ignore_duplicates": true
-        },
-        {
-          "path": "./www/<language>.pot",
-          "file_format": "gettext_pot",
-          "tag": "app:language.pot",
-          "exclude_languages": [
-            "en"
-          ],
-          "key_prefix": "pot_",
-          "ignore_duplicates": true
-        },
-        {
           "path": "./www/<language>.json",
           "file_format": "go_i18n_json",
           "tag": "app:language:3428.json",
