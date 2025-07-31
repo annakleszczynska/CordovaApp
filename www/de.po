@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Applanga (applanga.com)\n"
+
+msgid "empty_string_key"
+msgstr "leere_Zeichenfolge_Schlüssel"
+
+# Here is the description of the key
+msgid "with_description_key"
+msgstr "mit_Beschreibungsschlüssel"
+
+msgid "nested_key.level_one_b"
+msgstr "verschachtelter_Schlüssel.Ebene_eins_b"
+
+msgid "with_line_break_key"
+msgstr "mit_Zeile_Pause_Taste"
+
+msgid "nested_key.level_one_a.level_two"
+msgstr "verschachtelter_Schlüssel.Ebene_eins_a.Ebene_zwei"
+
+msgid "array_key[0]"
+msgstr "Array_Schlüssel[0]"
+
+msgid "array_key[1]"
+msgstr "Array_Schlüssel[1]"
+
+msgid "array_key[2]"
+msgstr "Array_Schlüssel[2]"
+
+msgid "simple_key"
+msgstr "einfache_Taste"
+
+msgid "plural_key"
+msgid_plural ""
+msgstr[0] "plural_Schlüssel"
+msgstr[1] "plural_Schlüssel"

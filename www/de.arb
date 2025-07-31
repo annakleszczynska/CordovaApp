@@ -1,0 +1,48 @@
+{
+  "@@locale": "de",
+  "with_description_key": "Dieser Schlüssel enthält eine Beschreibung in einigen Dateiformaten.",
+  "@with_description_key": {
+    "type": "text",
+    "description": "Here is the description of the key"
+  },
+  "with_line_break_key": "Dieser Schlüssel hat einen Zeilenumbruch\ndarin.",
+  "@with_line_break_key": {
+    "type": "text"
+  },
+  "nested_key.level_one_a.level_two": "Ein tief verschachtelter Schlüssel.",
+  "@nested_key.level_one_a.level_two": {
+    "type": "text"
+  },
+  "nested_key.level_one_b": "Ein verschachtelter Schlüssel.",
+  "@nested_key.level_one_b": {
+    "type": "text"
+  },
+  "plural_key[one]": "Plural Schlüssel eins",
+  "@plural_key[one]": {
+    "type": "text"
+  },
+  "plural_key[other]": "Mehrzweckschlüssel Sonstiges",
+  "@plural_key[other]": {
+    "type": "text"
+  },
+  "plural_key[zero]": "Mehrschlüssel Null",
+  "@plural_key[zero]": {
+    "type": "text"
+  },
+  "array_key[0]": "erster Eintrag",
+  "@array_key[0]": {
+    "type": "text"
+  },
+  "array_key[1]": "zweiter Eintrag",
+  "@array_key[1]": {
+    "type": "text"
+  },
+  "array_key[2]": "dritter Eintrag",
+  "@array_key[2]": {
+    "type": "text"
+  },
+  "simple_key": "Grundlegende Übersetzung.",
+  "@simple_key": {
+    "type": "text"
+  }
+}
