@@ -1,0 +1,11 @@
+/* Here is the description of the key */
+"with_description_key" = "Dieser Schlüssel enthält eine Beschreibung in einigen Dateiformaten.";
+"with_line_break_key" = "Dieser Schlüssel hat einen Zeilenumbruch\ndarin.";
+"nested_key.level_one_a.level_two" = "Ein tief verschachtelter Schlüssel.";
+"nested_key.level_one_b" = "Ein verschachtelter Schlüssel.";
+"array_key[0]" = "erster Eintrag";
+"array_key[1]" = "zweiter Eintrag";
+"array_key[2]" = "dritter Eintrag";
+"simple_key" = "Grundlegende Übersetzung.";
+/* Message shown for remaining files */
+"%d file(s) remaining" = "%d Datei(en) verbleibend";

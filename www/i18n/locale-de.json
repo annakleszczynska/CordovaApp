@@ -1,1 +1,14 @@
-{}
+{
+  "Title": "Apache Cordova – Applanga-Beispiel-App",
+  "ConnectingToDevice": "Anschließen an Gerät",
+  "DeviceIsReady": "Gerät ist bereit",
+  "AboutUsButton": "Über uns",
+  "ChangeLangButton": "Deutsch",
+  "AboutUs": "Über uns",
+  "Home": "Startseite",
+  "AboutText": "Alles, was Sie benötigen, um die Lokalisierung mobiler Apps und Spiele schlank und professionell zu gestalten",
+  "new_key1": "Neuer Schlüssel1",
+  "new_key2": "Neuer Schlüssel2",
+  "new_key3": "Neuer Schlüssel 3",
+  "new key4": "Neuer Key4"
+}
