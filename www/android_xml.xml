@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="empty_string_key"/>
+  <string name="with_description_key">This key has a description in some file-formats.</string>
+  <string name="with_line_break_key">This key has a line break
+in it.</string>
+  <string name="nested_key.level_one_a.level_two">A deeply nested key.</string>
+  <string name="nested_key.level_one_b">A nested key.</string>
+  <plurals name="plural_key">
+    <item quantity="one">Plural key one</item>
+    <item quantity="other">Plural key other</item>
+    <item quantity="zero">Plural key zero</item>
+  </plurals>
+  <string-array name="array_key">
+    <item>first entry</item>
+    <item>second entry</item>
+    <item>third entry</item>
+  </string-array>
+  <string name="simple_key">Most basic translation.</string>
+  <string name="simple_key_with_CDATA"><![CDATA['Most basic translation.']]></string>
+</resources>

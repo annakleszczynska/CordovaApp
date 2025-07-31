@@ -1,0 +1,52 @@
+{
+  "@@locale": "en",
+  "empty_string_key": "",
+  "@empty_string_key": {
+    "type": "text"
+  },
+  "with_description_key": "This key has a description in some file-formats.",
+  "@with_description_key": {
+    "type": "text",
+    "description": "Here is the description of the key"
+  },
+  "with_line_break_key": "This key has a line break\nin it.",
+  "@with_line_break_key": {
+    "type": "text"
+  },
+  "nested_key.level_one_a.level_two": "A deeply nested key.",
+  "@nested_key.level_one_a.level_two": {
+    "type": "text"
+  },
+  "nested_key.level_one_b": "A nested key.",
+  "@nested_key.level_one_b": {
+    "type": "text"
+  },
+  "plural_key[one]": "Plural key one",
+  "@plural_key[one]": {
+    "type": "text"
+  },
+  "plural_key[other]": "Plural key other",
+  "@plural_key[other]": {
+    "type": "text"
+  },
+  "plural_key[zero]": "Plural key zero",
+  "@plural_key[zero]": {
+    "type": "text"
+  },
+  "array_key[0]": "first entry",
+  "@array_key[0]": {
+    "type": "text"
+  },
+  "array_key[1]": "second entry",
+  "@array_key[1]": {
+    "type": "text"
+  },
+  "array_key[2]": "third entry",
+  "@array_key[2]": {
+    "type": "text"
+  },
+  "simple_key": "Most basic translation.",
+  "@simple_key": {
+    "type": "text"
+  }
+}

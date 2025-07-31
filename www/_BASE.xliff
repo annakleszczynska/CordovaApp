@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" target-language="en" date="2018-08-08T06:49:57Z" product-name="File Format Example" tool="Applanga">
+    <header>
+      <tool tool-name="Applanga"/>
+    </header>
+    <body>
+      <trans-unit id="empty_string_key">
+        <source/>
+      </trans-unit>
+      <trans-unit id="with_description_key">
+        <source>This key has a description in some file-formats.</source>
+        <note from="description">Here is the description of the key</note>
+      </trans-unit>
+      <trans-unit id="with_line_break_key">
+        <source>This key has a line break
+in it.</source>
+      </trans-unit>
+      <trans-unit id="nested_key.level_one_a.level_two">
+        <source/>
+        <note from="description">A deeply nested key.</note>
+      </trans-unit>
+      <trans-unit id="nested_key.level_one_b">
+        <source>A nested key.</source>
+      </trans-unit>
+      <trans-unit id="plural_key[one]">
+        <source>Plural key one</source>
+      </trans-unit>
+      <trans-unit id="plural_key[other]">
+        <source>Plural key other</source>
+      </trans-unit>
+      <trans-unit id="plural_key[zero]">
+        <source>Plural key zero</source>
+      </trans-unit>
+      <trans-unit id="array_key[0]">
+        <source>first entry</source>
+      </trans-unit>
+      <trans-unit id="array_key[1]">
+        <source>second entry</source>
+      </trans-unit>
+      <trans-unit id="array_key[2]">
+        <source>third entry</source>
+      </trans-unit>
+      <trans-unit id="simple_key">
+        <source>Most basic translation.</source>
+      </trans-unit>
+    </body>
+    <reference/>
+  </file>
+</xliff>

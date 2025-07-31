@@ -1,0 +1,39 @@
+{
+  "empty_string_key": {
+    "message": ""
+  },
+  "with_description_key": {
+    "message": "This key has a description in some file-formats.",
+    "description": "Here is the description of the key"
+  },
+  "with_line_break_key": {
+    "message": "This key has a line break\nin it."
+  },
+  "nested_key.level_one_a.level_two": {
+    "message": "A deeply nested key."
+  },
+  "nested_key.level_one_b": {
+    "message": "A nested key."
+  },
+  "plural_key[one]": {
+    "message": "Plural key one"
+  },
+  "plural_key[other]": {
+    "message": "Plural key other"
+  },
+  "plural_key[zero]": {
+    "message": "Plural key zero"
+  },
+  "array_key[0]": {
+    "message": "first entry"
+  },
+  "array_key[1]": {
+    "message": "second entry"
+  },
+  "array_key[2]": {
+    "message": "third entry"
+  },
+  "simple_key": {
+    "message": "Most basic translation."
+  }
+}

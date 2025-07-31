@@ -1,0 +1,46 @@
+[
+  {
+    "id": "empty_string_key",
+    "translation": ""
+  },
+  {
+    "id": "with_description_key",
+    "translation": "This key has a description in some file-formats."
+  },
+  {
+    "id": "with_line_break_key",
+    "translation": "This key has a line break\nin it."
+  },
+  {
+    "id": "nested_key.level_one_a.level_two",
+    "translation": "A deeply nested key."
+  },
+  {
+    "id": "nested_key.level_one_b",
+    "translation": "A nested key."
+  },
+  {
+    "id": "plural_key",
+    "translation": {
+      "one": "Plural key one",
+      "other": "Plural key other",
+      "zero": "Plural key zero"
+    }
+  },
+  {
+    "id": "array_key[0]",
+    "translation": "first entry"
+  },
+  {
+    "id": "array_key[1]",
+    "translation": "second entry"
+  },
+  {
+    "id": "array_key[2]",
+    "translation": "third entry"
+  },
+  {
+    "id": "simple_key",
+    "translation": "Most basic translation."
+  }
+]
