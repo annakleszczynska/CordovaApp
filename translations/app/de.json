@@ -1,1 +1,12 @@
-{}
+{
+  "app": {
+    "HAVE_MAIL_TITLE": "Sie haben eine E-Mail."
+  },
+  "config_android": {
+    "app_name": "Name der englischen App"
+  },
+  "config_ios": {
+    "CFBundleDisplayName": "Name der englischen App",
+    "CFBundleName": "Name der englischen App"
+  }
+}

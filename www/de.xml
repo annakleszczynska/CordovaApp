@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="with_description_key">Dieser Schlüssel enthält eine Beschreibung in einigen Dateiformaten.</string>
+  <string name="with_line_break_key">Dieser Schlüssel hat einen Zeilenumbruch.</string>
+  <string name="nested_key.level_one_a.level_two">Ein tief verschachtelter Schlüssel.</string>
+  <string name="nested_key.level_one_b">Ein verschachtelter Schlüssel.</string>
+  <string name="simple_key">Grundlegende Übersetzung.</string>
+  <string name="simple_key_with_CDATA"><![CDATA[Die grundlegendste Übersetzung.\']]></string>
+  <plurals name="plural_key">
+    <item quantity="one">Plural Schlüssel eins</item>
+    <item quantity="other">Mehrzweckschlüssel Sonstiges</item>
+    <item quantity="zero">Mehrschlüssel Null</item>
+  </plurals>
+  <string-array name="array_key">
+    <item>erster Eintrag</item>
+    <item>zweiter Eintrag</item>
+    <item>dritter Eintrag</item>
+  </string-array>
+</resources>
