@@ -16,26 +16,30 @@
           "onlyIfTextEmpty": true,
           "keepTagIds": false,
           "skipEmptyTranslations": false,
-          "language": "en"
+          "language": "en",
+          "key_prefix": "xlf_"
         },
         {
           "path": "./www/android_xml.xml",
           "file_format": "android_xml",
           "tag": "app:strings.xml",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "axml_"
         },
         {
           "path": "./www/angular_translate_json.json",
           "file_format": "angular_translate_json",
           "tag": "app:language:3228.json",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "angularJson_"
         },
         {
           "path": "./www/chrome_i18n_json.json",
           "file_format": "chrome_i18n_json",
           "tag": "app:messages.json",
           "remove_cr_char": true,
-          "language": "en"
+          "language": "en",
+          "key_prefix": "chrome_"
         },
         {
           "path": "./www/csv.csv",
@@ -46,13 +50,15 @@
             "en": 1
           },
           "excludeHeaderRow": true,
-          "language": "en"
+          "language": "en",
+          "key_prefix": "csv_"
         },
         {
           "path": "./www/ember_i18n_json_module.js",
           "file_format": "ember_i18n_json_module",
           "tag": "app:translations.js",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "ember_"
         },
         {
           "path": "./www/i18n/en.csv",
@@ -63,7 +69,8 @@
             "en": 1
           },
           "excludeHeaderRow": true,
-          "language": "en"
+          "language": "en",
+          "key_prefix": "csv_"
         },
         {
           "remove_cr_char": true,
@@ -71,7 +78,8 @@
           "file_format": "nested_json",
           "path": "./translations/app/en.json",
           "tag": "app:language.json",
-          "tag_category": "Web"
+          "tag_category": "Web",
+          "key_prefix": "nestedJson_"
         },
         {
           "path": "./www/en.xlsx",
@@ -83,133 +91,155 @@
           },
           "excludeHeaderRow": true,
           "sheetName": "Sheet1",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "xls_"
         },
         {
           "path": "./www/flutter_arb.arb",
           "file_format": "arb",
           "tag": "app:language.arb",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "arb_"
         },
         {
           "path": "./www/gettext_po.po",
           "file_format": "gettext_po",
           "tag": "app:language.po",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "po_"
         },
         {
           "path": "./www/gettext_pot.pot",
           "file_format": "gettext_pot",
           "tag": "app:language.pot",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "pot_"
         },
         {
           "path": "./www/go_i18n_json.json",
           "file_format": "go_i18n_json",
           "tag": "app:language:3428.json",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "go_i18n_json_"
         },
         {
           "path": "./www/i18next_json.json",
           "file_format": "i18next_json",
           "tag": "app:translations.json",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "i18next_json_"
         },
         {
           "path": "./www/ini.ini",
           "file_format": "ini",
           "tag": "app:language.ini",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "ini_"
         },
         {
           "path": "./www/ios_strings.strings",
           "file_format": "ios_strings",
           "tag": "app:Localizable.strings",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "ios_"
         },
         {
           "path": "./www/ios_stringsdict.stringsdict",
           "file_format": "ios_stringsdict",
           "tag": "app:Localizable2.strings",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "ios_dic_"
         },
         {
           "path": "./www/java_properties.properties",
           "file_format": "java_properties",
           "tag": "app:ApplicationMessages.properties",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "java_props_"
         },
         {
           "path": "./www/laravel_php.php",
           "file_format": "laravel_php",
           "tag": "app:language.php",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "php_"
         },
         {
           "language": "en",
           "file_format": "react_nested_json",
           "path": "./www/i18n/locale-en.json",
-          "tag": "app:react_nested_json.json"
+          "tag": "app:react_nested_json.json",
+          "key_prefix": "ReactJson_"
         },
         {
           "path": "./www/mozilla_i18n_json.json",
           "file_format": "mozilla_i18n_json",
           "tag": "app:messages2.json",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "mozillaJson_"
         },
         {
           "path": "./www/mozilla_properties.properties",
           "file_format": "mozilla_properties",
           "tag": "app:ApplicationMessages2.properties",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "mozilla_props_"
         },
         {
           "path": "./www/nested_json.json",
           "file_format": "nested_json",
           "tag": "app:language:5052.json",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "nestedJson_"
         },
         {
           "path": "./www/node_2_json.json",
           "file_format": "node_2_json",
           "tag": "app:language:1936.json",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "node2json_"
         },
         {
           "path": "./www/qt_ts.ts",
           "file_format": "qt_ts",
           "tag": "app:language.ts",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "ts_"
         },
         {
           "path": "./www/react_nested_json.json",
           "file_format": "react_nested_json",
           "tag": "app:language:6833.json",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "teactNestedjson_"
         },
         {
           "path": "./www/react_simple_json.json",
           "file_format": "react_simple_json",
           "tag": "app:language:6312.json",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "reactSimple_"
         },
         {
           "path": "./www/ruby_on_rails_yaml.yaml",
           "file_format": "ruby_on_rails_yaml",
           "tag": "app:language.yaml",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "ruby_"
         },
         {
           "path": "./www/symfony_yaml.yaml",
           "file_format": "symfony_yaml",
           "tag": "app:language.3yaml",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "yaml_"
         },
         {
           "path": "./www/symfony2_yaml.yaml",
           "file_format": "symfony2_yaml",
           "tag": "app:language2.yaml",
-          "language": "en"
+          "language": "en",
+          "key_prefix": "yaml2_"
         }
       ]
     },
@@ -224,7 +254,8 @@
           "includeContextUrl": true,
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "xlf_"
         },
         {
           "path": "./www/<language>.xml",
@@ -232,7 +263,8 @@
           "tag": "app:strings.xml",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "axml_"
         },
         {
           "path": "./www/<language>.json",
@@ -240,7 +272,8 @@
           "tag": "app:language:3228.json",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "angularJson_"
         },
         {
           "path": "./www/<language>.json",
@@ -248,7 +281,8 @@
           "tag": "app:messages.json",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "chrome_"
         },
         {
           "path": "./www/<language>.csv",
@@ -263,7 +297,8 @@
           "includeStatus": true,
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "csv_"
         },
         {
           "path": "./www/<language>.js",
@@ -271,7 +306,8 @@
           "tag": "app:translations.js",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "ember_"
         },
         {
           "path": "./www/i18n/<language>.csv",
@@ -281,7 +317,8 @@
           "excludeBaseLang": true,
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "csv_"
         },
         {
           "remove_cr_char": true,
@@ -291,7 +328,8 @@
           "sort_by_key": true,
           "file_format": "nested_json",
           "path": "./translations/app/<language>.json",
-          "tag": "app:language.json"
+          "tag": "app:language.json",
+          "key_prefix": "nestedJson_"
         },
         {
           "path": "./www/<language>.xlsx",
@@ -306,7 +344,8 @@
           "includeStatus": false,
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "xls_"
         },
         {
           "path": "./www/<language>.arb",
@@ -314,7 +353,8 @@
           "tag": "app:language.arb",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "arb_"
         },
         {
           "path": "./www/<language>.po",
@@ -322,7 +362,8 @@
           "tag": "app:language.po",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "po_"
         },
         {
           "path": "./www/<language>.pot",
@@ -330,7 +371,8 @@
           "tag": "app:language.pot",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "pot_"
         },
         {
           "path": "./www/<language>.json",
@@ -338,7 +380,8 @@
           "tag": "app:language:3428.json",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "go_i18n_json_"
         },
         {
           "path": "./www/<language>.json",
@@ -346,7 +389,8 @@
           "tag": "app:translations.json",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "i18next_json_"
         },
         {
           "path": "./www/<language>.ini",
@@ -354,7 +398,8 @@
           "tag": "app:language.ini",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "ini_"
         },
         {
           "path": "./www/<language>.strings",
@@ -362,7 +407,8 @@
           "tag": "app:Localizable.strings",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "ios_"
         },
         {
           "path": "./www/<language>.stringsdict",
@@ -370,7 +416,8 @@
           "tag": "app:Localizable2.strings",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "ios_dic_"
         },
         {
           "path": "./www/<language>.properties",
@@ -378,7 +425,8 @@
           "tag": "app:ApplicationMessages.properties",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "java_props_"
         },
         {
           "path": "./www/<language>.php",
@@ -386,7 +434,8 @@
           "tag": "app:language.php",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "php_"
         },
         {
           "exclude_languages": [
@@ -394,7 +443,8 @@
           ],
           "file_format": "react_nested_json",
           "path": "./www/i18n/locale-<language>.json",
-          "tag": "app:react_nested_json.json"
+          "tag": "app:react_nested_json.json",
+          "key_prefix": "ReactJson_"
         },
         {
           "path": "./www/<language>.json",
@@ -402,7 +452,8 @@
           "tag": "app:messages2.json",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "mozillaJson_"
         },
         {
           "path": "./www/<language>.properties",
@@ -410,7 +461,8 @@
           "tag": "app:ApplicationMessages2.properties",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "mozilla_props_"
         },
         {
           "path": "./www/<language>.json",
@@ -418,7 +470,8 @@
           "tag": "app:language:5052.json",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "nestedJson_"
         },
         {
           "path": "./www/<language>.json",
@@ -426,7 +479,8 @@
           "tag": "app:language:1936.json",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "node2json_"
         },
         {
           "path": "./www/<language>.ts",
@@ -434,7 +488,8 @@
           "tag": "app:language.ts",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "ts_"
         },
         {
           "path": "./www/<language>.json",
@@ -442,7 +497,8 @@
           "tag": "app:language:6833.json",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "teactNestedjson_"
         },
         {
           "path": "./www/<language>.json",
@@ -450,7 +506,8 @@
           "tag": "app:language:6312.json",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "reactSimple_"
         },
         {
           "path": "./www/<language>.yaml",
@@ -458,7 +515,8 @@
           "tag": "app:language.yaml",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "ruby_"
         },
         {
           "path": "./www/<language>.yaml",
@@ -466,7 +524,8 @@
           "tag": "app:language.3yaml",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "yaml_"
         },
         {
           "path": "./www/<language>.yaml",
@@ -474,7 +533,8 @@
           "tag": "app:language2.yaml",
           "exclude_languages": [
             "en"
-          ]
+          ],
+          "key_prefix": "yaml2_"
         }
       ]
     }
