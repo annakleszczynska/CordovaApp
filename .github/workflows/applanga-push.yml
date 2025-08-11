@@ -14,26 +14,6 @@ on:
       - translations/app/en.json
       - www/en.xlsx
       - www/flutter_arb.arb
-      - www/gettext_po.po
-      - www/gettext_pot.pot
-      - www/go_i18n_json.json
-      - www/i18next_json.json
-      - www/ini.ini
-      - www/ios_strings.strings
-      - www/ios_stringsdict.stringsdict
-      - www/java_properties.properties
-      - www/laravel_php.php
-      - www/i18n/locale-en.json
-      - www/mozilla_i18n_json.json
-      - www/mozilla_properties.properties
-      - www/nested_json.json
-      - www/node_2_json.json
-      - www/qt_ts.ts
-      - www/react_nested_json.json
-      - www/react_simple_json.json
-      - www/ruby_on_rails_yaml.yaml
-      - www/symfony_yaml.yaml
-      - www/symfony2_yaml.yaml
   workflow_dispatch:
     inputs:
       push_targets:
@@ -55,6 +35,7 @@ jobs:
         if: '${{ inputs.push_targets != true }}'
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
+          APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
         run: applanga push --force
         working-directory: checkout
       - name: Push Translation Files to Applanga
