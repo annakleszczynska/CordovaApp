@@ -6,14 +6,20 @@ on:
     paths:
       - www/_BASE.xliff
       - www/android_xml.xml
-      - www/angular_translate_json.json
-      - www/chrome_i18n_json.json
       - www/csv.csv
       - www/ember_i18n_json_module.js
       - www/i18n/en.csv
       - translations/app/en.json
       - www/en.xlsx
       - www/flutter_arb.arb
+      - www/gettext_po.po
+      - www/gettext_pot.pot
+      - www/i18next_json.json
+      - www/ini.ini
+      - www/ios_strings.strings
+      - www/ios_stringsdict.stringsdict
+      - www/java_properties.properties
+      - www/laravel_php.php
   workflow_dispatch:
     inputs:
       push_targets:
