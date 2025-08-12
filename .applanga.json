@@ -27,21 +27,6 @@
           "key_prefix": "axml_"
         },
         {
-          "path": "./www/angular_translate_json.json",
-          "file_format": "angular_translate_json",
-          "tag": "app:language:3228.json",
-          "language": "en",
-          "key_prefix": "angularJson_"
-        },
-        {
-          "path": "./www/chrome_i18n_json.json",
-          "file_format": "chrome_i18n_json",
-          "tag": "app:messages.json",
-          "remove_cr_char": true,
-          "language": "en",
-          "key_prefix": "chrome_"
-        },
-        {
           "path": "./www/csv.csv",
           "file_format": "csv",
           "tag": "app:language:5622.csv",
@@ -100,6 +85,54 @@
           "tag": "app:language.arb",
           "language": "en",
           "key_prefix": "arb_"
+        },
+        {
+          "path": "./www/gettext_po.po",
+          "file_format": "gettext_po",
+          "tag": "app:language.po",
+          "language": "en"
+        },
+        {
+          "path": "./www/gettext_pot.pot",
+          "file_format": "gettext_pot",
+          "tag": "app:language.po",
+          "language": "en"
+        },
+        {
+          "path": "./www/i18next_json.json",
+          "file_format": "node_2_json",
+          "tag": "app:language:4001.json",
+          "language": "en"
+        },
+        {
+          "path": "./www/ini.ini",
+          "file_format": "ini",
+          "tag": "app:language.ini",
+          "language": "en"
+        },
+        {
+          "path": "./www/ios_strings.strings",
+          "file_format": "ios_strings",
+          "tag": "app:Localizable.strings",
+          "language": "en"
+        },
+        {
+          "path": "./www/ios_stringsdict.stringsdict",
+          "file_format": "ios_stringsdict",
+          "tag": "app:Localizable.strings",
+          "language": "en"
+        },
+        {
+          "path": "./www/java_properties.properties",
+          "file_format": "java_properties",
+          "tag": "app:ApplicationMessages.properties",
+          "language": "en"
+        },
+        {
+          "path": "./www/laravel_php.php",
+          "file_format": "laravel_php",
+          "tag": "app:language.php",
+          "language": "en"
         }
       ]
     },
@@ -127,24 +160,6 @@
           "key_prefix": "axml_"
         },
         {
-          "path": "./www/<language>.json",
-          "file_format": "angular_translate_json",
-          "tag": "app:language:3228.json",
-          "exclude_languages": [
-            "en"
-          ],
-          "key_prefix": "angularJson_"
-        },
-        {
-          "path": "./www/<language>.json",
-          "file_format": "chrome_i18n_json",
-          "tag": "app:messages.json",
-          "exclude_languages": [
-            "en"
-          ],
-          "key_prefix": "chrome_"
-        },
-        {
           "path": "./www/<language>.csv",
           "file_format": "csv",
           "tag": "app:language:5622.csv",
@@ -161,7 +176,7 @@
           "key_prefix": "csv_"
         },
         {
-          "path": "./www/<language>.js",
+          "path": "./www/ember_i18n_json_module_<language>.js",
           "file_format": "ember_i18n_json_module",
           "tag": "app:translations.js",
           "exclude_languages": [
@@ -208,13 +223,77 @@
           "key_prefix": "xls_"
         },
         {
-          "path": "./www/<language>.arb",
+          "path": "./www/flutter_arb_<language>.arb",
           "file_format": "arb",
           "tag": "app:language.arb",
           "exclude_languages": [
             "en"
           ],
           "key_prefix": "arb_"
+        },
+        {
+          "path": "./www/<language>.po",
+          "file_format": "gettext_po",
+          "tag": "app:language.po",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./www/<language>.pot",
+          "file_format": "gettext_pot",
+          "tag": "app:language.po",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./www/i18next_json _<language>.json",
+          "file_format": "node_2_json",
+          "tag": "app:language:4001.json",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./www/<language>.ini",
+          "file_format": "ini",
+          "tag": "app:language.ini",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./www/<language>.strings",
+          "file_format": "ios_strings",
+          "tag": "app:Localizable.strings",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./www/<language>.stringsdict",
+          "file_format": "ios_stringsdict",
+          "tag": "app:Localizable.strings",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./www/java_properties_<language>.properties",
+          "file_format": "java_properties",
+          "tag": "app:ApplicationMessages.properties",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./www/<language>.php",
+          "file_format": "laravel_php",
+          "tag": "app:language.php",
+          "exclude_languages": [
+            "en"
+          ]
         }
       ]
     }
