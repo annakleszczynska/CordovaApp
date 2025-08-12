@@ -240,8 +240,8 @@
           ]
         },
         {
-          "path": "./www/<language>.pot",
-          "file_format": "gettext_pot",
+          "path": "./www/<language>.po",
+          "file_format": "gettext_po",
           "tag": "app:language.po",
           "exclude_languages": [
             "en"
@@ -272,8 +272,8 @@
           ]
         },
         {
-          "path": "./www/<language>.stringsdict",
-          "file_format": "ios_stringsdict",
+          "path": "./www/<language>.strings",
+          "file_format": "ios_strings",
           "tag": "app:Localizable.strings",
           "exclude_languages": [
             "en"
