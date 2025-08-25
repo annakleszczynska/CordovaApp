@@ -20,6 +20,12 @@ on:
       - www/ios_stringsdict.stringsdict
       - www/java_properties.properties
       - www/laravel_php.php
+      - www/mozilla_properties.properties
+      - www/nested_json.json
+      - www/react_nested_json.json
+      - www/react_simple_json.json
+      - www/ruby_on_rails_yaml.yaml
+      - www/symfony_yaml.yaml
   workflow_dispatch:
     inputs:
       push_targets:
