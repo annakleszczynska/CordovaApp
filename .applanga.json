@@ -395,12 +395,19 @@
           ]
         },
         {
+          "path": "./www/symfony_PL3.yaml",
+          "file_format": "symfony_yaml",
+          "tag": "app:language.yamls",
+          "key_prefix": "Symfony_",
+          "language": "pl",
+        },
+        {
           "path": "./www/symfony_<language>.yaml",
           "file_format": "symfony_yaml",
           "tag": "app:language.yamls",
           "key_prefix": "Symfony_",
           "exclude_languages": [
-            "en"
+            "en", "pl"
           ]
         }
       ]
