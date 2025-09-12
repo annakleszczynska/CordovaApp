@@ -399,7 +399,7 @@
           "file_format": "symfony_yaml",
           "tag": "app:language.yamls",
           "key_prefix": "Symfony_",
-          "language": "pl",
+          "language": "pl"
         },
         {
           "path": "./www/symfony_<language>.yaml",
