@@ -6,7 +6,7 @@
         {
           "path": "./www/_BASE.xliff",
           "file_format": "xliff",
-          "tag": "app:Localizable.xliff",
+          "tag": ["app:Localizable.xliff","another tag"],
           "onlyAsDraft": true,
           "importIntoGroup": true,
           "importStatus": true,
