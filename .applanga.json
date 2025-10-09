@@ -241,7 +241,11 @@
           "exclude_languages": [
             "en"
           ],
-          "key_prefix": "csv_"
+          "key_prefix": "csv_",
+          "columnDescription": {
+            "KEY": 0,
+            "<language>": 1
+          }
         },
         {
           "remove_cr_char": true,
@@ -399,15 +403,9 @@
           "file_format": "symfony_yaml",
           "tag": "app:language.yamls",
           "key_prefix": "Symfony_",
-          "language": "pl"
-        },
-        {
-          "path": "./www/symfony_<language>.yaml",
-          "file_format": "symfony_yaml",
-          "tag": "app:language.yamls",
-          "key_prefix": "Symfony_",
+          "language": "pl",
           "exclude_languages": [
-            "en", "pl"
+            "en"
           ]
         }
       ]
